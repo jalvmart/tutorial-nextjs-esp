@@ -4,32 +4,36 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'El Framework de React.js para Producción',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Next.js te proporciona la estructura base para estructurar, organizar y 
+        desarrollar tu software con todas las funciones que necesitas para 
+        la producción. Acelera hoy mismo este proceso de desarrollo hasta 
+        la implementación final.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Aumenta tu Productividad desde la primera etapa del desarrollo',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Con Next.js pasar del desarrollo a la producción es un tarea sin 
+        complicaciones. Aumenta tu productividad y deja que Next.js compile, 
+        empaquete, minimice y divida el código por ti.  
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Utiliza el Kit de Desarrollo de Software más completo',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Organiza tu código con Next.js el cual cuenta con las herramientas de desarrollo 
+        más completas para JavaScript y React.JS. También, podrás implementar cualquier 
+        aplicación frontend en la plataforma de Vercel.   
       </>
     ),
   },

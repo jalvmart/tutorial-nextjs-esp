@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Next.JS de Vercel',
+  tagline: 'El Kit de Desarrollo de Software más completo',
+  url: 'https://nextjs.org/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'jalvmart', // Usually your GitHub org/user name.
+  projectName: 'Code R11', // Usually your repo name.
 
   presets: [
     [
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Code R11',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Proyecto Code R11',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,33 +67,37 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Aprende',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorial Next.JS en Español',
                 to: '/docs/intro',
               },
+              {
+                label: 'Tutorial oficial de Next.JS',
+                href: 'https://nextjs.org/learn/foundations/about-nextjs',
+              },
             ],
           },
           {
-            title: 'Community',
+            title: 'Comunidad',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Grupo de debates',
+                href: 'https://github.com/vercel/next.js/discussions',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Sitios creados con Next.JS',
+                href: 'https://nextjs.org/showcase',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Twitter @Vercel',
+                href: 'https://twitter.com/vercel',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Más',
             items: [
               {
                 label: 'Blog',
@@ -101,12 +105,17 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/jalvmart/tutorial-nextjs-esp.git',
+              }, 
+              {
+                label: 'Twitter @Code_r11',
+                href: 'https://twitter.com/code_r11',
               },
+
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Code R11, Construido con Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
