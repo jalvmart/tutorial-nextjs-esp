@@ -1,12 +1,16 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import FrameworkImageUrl from '@site/static/img/framework-800.jpg';
+import ProductividadImageUrl from '@site/static/img/productividad-800.jpg';
+import SDKNextjsVercelImageUrl from '@site/static/img/SDK-Nextjs-Vercel-800.jpg';
 
 const FeatureList = [
   {
-    title: 'El Framework de React.js para Producción',
+    title: 'El Framework de React.js para Producción',   
+    Jpg:  FrameworkImageUrl,
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
+    description: (      
       <>
         Next.js te proporciona la estructura base para estructurar, organizar y 
         desarrollar tu software con todas las funciones que necesitas para 
@@ -17,6 +21,7 @@ const FeatureList = [
   },
   {
     title: 'Aumenta tu Productividad desde la primera etapa del desarrollo',
+    Jpg: ProductividadImageUrl,
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -28,6 +33,7 @@ const FeatureList = [
   },
   {
     title: 'Utiliza el Kit de Desarrollo de Software más completo',
+    Jpg: SDKNextjsVercelImageUrl,
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -39,11 +45,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, Jpg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <div className="text--center">         
+        <img src={Jpg} />;       
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
