@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import FrameworkImageUrl from '@site/static/img/framework-800.jpg';
-import ProductividadImageUrl from '@site/static/img/productividad-800.jpg';
+import ProductividadImageUrl from '@site/static/img/Productividad-800.jpg';
 import SDKNextjsVercelImageUrl from '@site/static/img/SDK-Nextjs-Vercel-800.jpg';
 
 const FeatureList = [
