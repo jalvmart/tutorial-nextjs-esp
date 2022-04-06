@@ -46,7 +46,7 @@ const config = {
         title: 'Code R11',
         logo: {
           alt: 'Proyecto Code R11',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
