@@ -8,8 +8,7 @@ import SDKNextjsVercelImageUrl from '@site/static/img/SDK-Nextjs-Vercel-800.jpg'
 const FeatureList = [
   {
     title: 'El Framework de React.js para Producción',   
-    Jpg:  FrameworkImageUrl,
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Jpg:  FrameworkImageUrl,    
     description: (      
       <>
         Next.js te proporciona la estructura base para estructurar, organizar y 
@@ -21,8 +20,7 @@ const FeatureList = [
   },
   {
     title: 'Aumenta tu Productividad desde la primera etapa del desarrollo',
-    Jpg: ProductividadImageUrl,
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Jpg: ProductividadImageUrl,    
     description: (
       <>
         Con Next.js pasar del desarrollo a la producción es un tarea sin 
@@ -33,8 +31,7 @@ const FeatureList = [
   },
   {
     title: 'Utiliza el Kit de Desarrollo de Software más completo',
-    Jpg: SDKNextjsVercelImageUrl,
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Jpg: SDKNextjsVercelImageUrl,    
     description: (
       <>
         Organiza tu código con Next.js el cual cuenta con las herramientas de desarrollo 
@@ -49,7 +46,7 @@ function Feature({Svg, Jpg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">         
-        <img src={Jpg} />;       
+        <img src={Jpg} />       
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

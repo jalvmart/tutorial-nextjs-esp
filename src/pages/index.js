@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Aprende Next.JS (Curso en Español para Novatos)    
+            Aprende Next.JS    
           </Link>
         </div>
       </div>
