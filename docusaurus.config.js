@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'jalvmart', // Usually your GitHub org/user name.
-  projectName: 'Code R11', // Usually your repo name.
+  organizationName: 'Juan Alvaro Martinez', // Usually your GitHub org/user name.
+  projectName: 'jalvmart', // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/jalvmart/tutorial-nextjs-esp/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/jalvmart/tutorial-nextjs-esp/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
