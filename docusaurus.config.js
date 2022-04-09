@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Next.JS de Vercel',
+  title: 'Tutorial Next.JS de Vercel en Español',
   tagline: 'El Kit de Desarrollo de Software más completo',
   url: 'https://nextjs.org/',
   baseUrl: '/',
@@ -114,7 +114,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Code R11, Construido con Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Proyectos Code R11, Construido con Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
