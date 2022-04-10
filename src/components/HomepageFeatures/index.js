@@ -11,7 +11,7 @@ const FeatureList = [
     Jpg:  FrameworkImageUrl,    
     description: (      
       <>
-        Next.js te proporciona la estructura base para estructurar, organizar y 
+        Next.js te proporciona la base para estructurar, organizar y 
         desarrollar tu software con todas las funciones que necesitas para 
         la producción. Acelera hoy mismo este proceso de desarrollo hasta 
         la implementación final.

@@ -39,7 +39,7 @@ Entonces, te preguntarás ¿para qué crear un curso paralelo si ya existe un cu
 - **Herramientas y Plataformas:** 
   - [**Visual Studio Code:**](https://code.visualstudio.com/) Editor de código fuente. 
   - [**GitHub:**](https://github.com/) Plataforma de desarrollo colaborativo) para alojar proyectos utilizando el sistema de control de versiones Git.
-  - [**Versel:**](https://vercel.com/) Plataforma con herramientas para construir en la web cuyo componente principal es el entorno de desarrollo Next.js. Perfecto para implementar tu aplicación frontend en la nube sin necesidad de configuración. Por lo que podrá crear sitios web mejores y más rápidos en su red perimetral global (*global edge network*). 
+  - [**Vercel:**](https://vercel.com/) Plataforma con herramientas para construir en la web cuyo componente principal es el entorno de desarrollo Next.js. Perfecto para implementar tu aplicación frontend en la nube sin necesidad de configuración. Por lo que podrá crear sitios web mejores y más rápidos en su red perimetral global (*global edge network*). 
 - **Desarrollo web:** 
   - [**HTML:**](https://www.w3schools.com/html/) *HyperText Markup Language*, «lenguaje de marcado de hipertexto».  
   - [**CSS:**](https://www.w3schools.com/css/) *Cascading Style Sheets*, «Hojas de estilo en cascada»
