@@ -2,23 +2,30 @@
 sidebar_position: 1
 ---
 
-# Cómo aumentar la productivo con React y Next.js 
+# Aumenta tu productividad con Next.js 
 
-Todo | Parte | Todo
-![Lista Simple](/img/tutorial/001.jpg)
+La imagen a continuación representa una página web que contiene una lista de elementos y un botón.
 
-La siguiente imagen corresponde a una página web que muestra una título `<h1>` y una lista `<ul>` con tres elementos `<li>`. Además, de un botón donde los usuarios pueden indicar si le gusta el contenido.  
+![Lista construida con HTML ](/img/tutorial/001.jpg)
 
-Con este sencillo ejemplo podemos evaluar cual es la manera más productiva de trabajar con un proyecto web. El objetivo de este ejercicio es recrear está simple página de cuatro maneras distintas. vas a descubrir como Next.js es la opción más eficiente. 
+Al analizar dicha página verás un título `<h1>` y una lista `<ul>` con tres elementos `<li>`. Además, de un botón `<button>` que contiene  un contador que se incrementa cada vez que es pulsado.
 
-Así que lo siguente que haremos a continuación es obtener los resultados para estos cuatro procesos:
+Así que toca recrear el código de la imagen de cuatro maneras diferentes para llegar al mismo resultado. Esto tiene la finalidad de mostrar como **evolucionar con el desarrollo web** en la medida que se incorporan otras tecnologías. ¿Cómo hacerlo? Con la adopción de procesos ya existentes y disponibles como lo son el uso de una biblioteca de funciones y el empleo de un *framework* o entorno eficiente de trabajo. 
 
-1. **Crear una lista con HTML**: Crear un simple archivo .html  
-2. **Crear una lista con HTML y JavaScript**: Utilizar JavaScript para crear directamente los elementos de HTML y el contenido, mediante un script que manipule el Modelo de Objeto del Documento (DOM: *Document Object Model*).
-3. **Crear una lista con React**: Utilizar React como biblioteca de JavaScript para crear una interface interactiva.
-4. **Crear una lista con React y Next.js**: Utilizar Next.js como un framework para manejar las herramientas y la configuración necesaria para React. 
+Para comprender cuales son los beneficios de dicha adopción es necesario comparar el proceso de desarrollo programático. Partiendo del uso de **HTML y JavaScript** tradicional e imperativo al uso eficiente y declarativo con **React y Next.js**.
 
-## 1. Crear una lista con HTML 
+### De la Programación Imperativa a la Programación Declarativa
+
+Este ejemplo simple es ideal para mostrar las diferentes alternativas o escenarios que tiene un desarrollador para recrear esta simple página. Así que puedes utilizar HTML y JavaScript de manera imperativa para su construcción o adoptar un enfoque de programación declarativa con React y Next.js. 
+
+Para efectos didácticos, verás 4 escenarios donde se destaca como el código y la organización del proyecto se vuelve más eficiente al incorporar el uso de React y Next.js.
+
+## Escenario 1. HTML (estático)
+
+[Objetivo] **Crear una lista con HTML**: Un simple archivo .html estático. 
+
+Una de estas alternativas es crear las etiquetas de manera directa en la estructura del HTML.  
+ 
 ![Lista Simple con HTML](/img/tutorial/002.jpg)
 
 ```html
@@ -41,7 +48,13 @@ Así que lo siguente que haremos a continuación es obtener los resultados para 
 </html>
 ```
 
-## 2. Crear una lista con HTML y JavaScript 
+
+## Escenario 2. HTML y JavaScript (Imperativo)
+
+[Objetivo] **Crear una lista con HTML y JavaScript**: Utilizar JavaScript para crear directamente los elementos de HTML y el contenido, mediante un script que manipule el Modelo de Objeto del Documento (DOM: *Document Object Model*). (Cuando dominas lo básico del lenguaje de JavaScript y te toca codificarlo todo)
+
+Se puede crear todo el contenido con JavaScript mediante la manipulación de la estructura y los objetos del documento. Ahora, con este entorno programable tenemos más control. Imagina, que las lista se podría alimentar con información de una base de datos, un archivo *json* o utilizar un arreglo (array).  
+
 ![Lista Simple con HTML y JavaScript](/img/tutorial/003.jpg)
 
 #### Archivo: index.html [Código](https://github.com/jalvmart/Curso01-P02-JavaScript-DOM-ejemplo01)
@@ -108,8 +121,16 @@ for (let i = 0; i < arrayList.length; i++){
 }
 ```
 
+No obstante, mucho del código que creamos desde cero y de manera imperativa se puede estandarizar mediante funciones reutilizables. En el siguiente escenario vamos a pasar de la de la programación imperativa a la programación declarativa.  
 
-## 3. Crear una lista con React
+## Escenario 3. Biblioteca React (declarativo)
+
+[Objetivo] **Crear una lista con React**: Utilizar React como biblioteca de JavaScript para crear una interface interactiva con componentes reutilizables. (Cuando descubres que se puede trabajar con componentes y eventos)
+
+En este punto, decubriras la importancia que tiene pasar de la programación imperativa a la declarativa para acelerar el proceso de desarrollo. En la actualidad React es una biblioteca declatativa con componentes reutilizables que te facilitan la programación. Sobre todo cuando debes trabajar con eventos y la manipulación de los objetos para el HTML.
+
+De esta manera, con React aumentas tu productividad y no tienes que reinventar una solución o construir un proceso con código puro y duro con un enfoque desafiante e imperativo en JavaScript.   
+
 ![Lista Simple con React](/img/tutorial/005.jpg)
 
 #### Archivo: index.html
@@ -162,7 +183,11 @@ function HomePage(){
 ReactDOM.render(<HomePage />, app)
 ```
 
-## 4. Crear una lista con React y Next.js 
+## Escenario 4. React y Next.js como su Framework (declarativo y eficiente)
+
+[Obejtivo] **Crear una lista con React y Next.js**: Utilizar Next.js como un framework para manejar las herramientas y la configuración necesaria para React. 
+
+Utilizar Next.js significa aumentar la productividad ya que es un entorno de trabajo que se encarga entre muchas otros procesos de: compilar, empaquetar, minimizar y dividir el código. De esta manera, se pueden crear aplicaciones web interactivas, dínamicas y de alto rendimiento.
 
 ![Lista Simple](/img/tutorial/001.jpg)
 
@@ -176,7 +201,7 @@ function Header({title}){
 }
 
 export default function HomePage(){
-    const arrayList = ["HTML","CSS","JavaScript","Node.js","React.js"]
+    const arrayList = ["HTML","CSS","JavaScript","Node.js","React","Next.js"]
 
     const [likes, setLikes] = useState(0)
 
@@ -196,9 +221,7 @@ export default function HomePage(){
         </div>
     )
 }
-```
-
-Utiliza React y Next.js para crear aplicaciones web interactivas, dínamicas y de alto rendimiento. 
+```  
 
 
 
