@@ -4,15 +4,15 @@ sidebar_position: 1
 
 # Aumenta tu productividad con Next.js 
 
-La imagen a continuación representa una página web que contiene una lista de elementos y un botón.
+La imagen de abajo representa una página web muy sencilla y sin CSS. Se va a usar como ejemplo para comparar el código que se crea al usar un método imperativo y en otro caso un método declarativo. Dicha página contiene una lista de elementos y un botón con un contador. 
 
 ![Lista construida con HTML ](/img/tutorial/001.jpg)
 
 Al analizar dicha página verás un título `<h1>` y una lista `<ul>` con tres elementos `<li>`. Además, de un botón `<button>` que contiene  un contador que se incrementa cada vez que es pulsado.
 
-Así que toca recrear el código de la imagen de cuatro maneras diferentes para llegar al mismo resultado. Esto tiene la finalidad de mostrar como **evolucionar con el desarrollo web** en la medida que se incorporan otras tecnologías. ¿Cómo hacerlo? Con la adopción de procesos ya existentes y disponibles como lo son el uso de una biblioteca de funciones y el empleo de un *framework* o entorno eficiente de trabajo. 
+Por tanto, toca recrear el código de la imagen de cuatro maneras diferentes para llegar al mismo resultado. Esto tiene la finalidad de evolucionar con el desarrollo web en la medida que se incorporan otras tecnologías para mejorar la productividad. ¿Cómo hacerlo de manera eficiente? Manipulando el DOM HTML con la adopción de procesos ya existentes y disponibles. Como lo son el uso de una biblioteca de funciones y el empleo de un *framework* o entorno eficiente de trabajo. 
 
-Para comprender cuales son los beneficios de dicha adopción es necesario comparar el proceso de desarrollo programático. Partiendo del uso de **HTML y JavaScript** tradicional e imperativo al uso eficiente y declarativo con **React y Next.js**.
+Para comprender cuales son los beneficios de dicha adopción es necesario comparar el proceso de desarrollo programático. Esto implica, partir del uso de **HTML y JavaScript** tradicional e imperativo y pasar al uso eficiente y declarativo de **React y Next.js**.
 
 ### De la Programación Imperativa a la Programación Declarativa
 
