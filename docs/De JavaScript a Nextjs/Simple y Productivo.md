@@ -10,7 +10,9 @@ La imagen de abajo representa una página web muy sencilla y sin CSS. Se va a us
 
 Al analizar dicha página verás un título `<h1>` y una lista `<ul>` con tres elementos `<li>`. Además, de un botón `<button>` que contiene  un contador que se incrementa cada vez que es pulsado.
 
-Por tanto, toca recrear el código de la imagen de cuatro maneras diferentes para llegar al mismo resultado. Esto tiene la finalidad de evolucionar con el desarrollo web en la medida que se incorporan otras tecnologías para mejorar la productividad. ¿Cómo hacerlo de manera eficiente? Manipulando el DOM HTML con la adopción de procesos ya existentes y disponibles. Como lo son el uso de una biblioteca de funciones y el empleo de un *framework* o entorno eficiente de trabajo. 
+Por tanto, en esta sección se ha recreado el código de dicha imagen de cuatro maneras diferentes para llegar al mismo resultado. Esto tiene la finalidad de mostrar como evolucionar con el desarrollo web en la medida que se incorporan otras tecnologías para mejorar la productividad. 
+
+¿Cómo hacerlo esto de manera eficiente? Con la manipulación del DOM HTML y la adopción de procesos ya existentes y disponibles para tal fin. Esto implica el el uso de una biblioteca de funciones y el empleo de un *framework* o entorno eficiente de trabajo. 
 
 Para comprender cuales son los beneficios de dicha adopción es necesario comparar el proceso de desarrollo programático. Esto implica, partir del uso de **HTML y JavaScript** tradicional e imperativo y pasar al uso eficiente y declarativo de **React y Next.js**.
 
@@ -191,7 +193,9 @@ Utilizar Next.js significa aumentar la productividad ya que es un entorno de tra
 
 ![Lista Simple](/img/tutorial/001.jpg)
 
-#### Archivo: page/index.jsx
+En esta sección se muestra solo el código que es necesario crear, luego de configurar el framework. En la próxima sección se detalla paso a paso como hacer la instalación para trabajar tanto con React y Next.js.
+
+#### Archivo: pages/index.jsx
 ```javascript
 import { useState } from 'react'
 
